@@ -18,6 +18,7 @@ html {
 
 body {
   font-family: "Open Sans";
+  font-size: 1.6rem;
 }
 
 .line-clamp {
@@ -44,6 +45,89 @@ body {
   margin: 0 auto;
 }
 
+.btn {
+  display: inline-block;
+  text-align: center;
+  min-width: 149px;
+  line-height: 58px;
+  border-radius: 8px;
+  background: #212832;
+  color: #fff;
+  font-weight: 600;
+  padding: 0 10px;
+}
+
 /*---------------------------------------------
 # header styling
+---------------------------------------------*/
+.header {
+  padding: 42px 0 10px;
+}
+
+.header__fixed {
+  position: sticky;
+  top: -32px;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  gap: 6.95px;
+  align-items: center;
+}
+
+.logo-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.logo-text {
+  width: 71.734px;
+  height: 12.313px;
+}
+
+.navbar {
+  margin-left: 70.32px;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.header__link {
+  color: #696d76;
+  font-weight: 400;
+  line-height: 1.75; /* 175% */
+  padding: 7.84px 0;
+}
+
+.header__link:hover,
+.header__link-active {
+  text-shadow: 1px 0 0 #212832;
+  border-bottom: 1px solid #7264d6;
+}
+
+.header__cta {
+  margin-left: auto;
+  display: flex;
+  gap: 28px;
+}
+
+.header__login {
+  color: #212832;
+}
+
+.header__signup {
+  border-radius: 6px;
+  min-width: 113px;
+  line-height: 52px;
+}
+/*---------------------------------------------
+# section styling
 ---------------------------------------------*/
