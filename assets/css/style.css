@@ -65,6 +65,7 @@ input {
 
 .btn:hover {
   opacity: 0.9;
+  cursor: pointer;
 }
 
 .section-labels {
@@ -546,8 +547,7 @@ input {
 # feature section styling
 ---------------------------------------------*/
 .feature {
-  padding: 66px 0;
-  margin-top: 28px;
+  padding: 94px 0;
 }
 
 .feature__inner {
@@ -940,8 +940,7 @@ input {
 # blog section styling
 ---------------------------------------------*/
 .blog {
-  padding: 66px 0;
-  margin-top: 28px;
+  padding: 94px 0;
 }
 
 .blog__top {
@@ -977,6 +976,7 @@ input {
 .blog__item:hover {
   border: 1px solid transparent;
   box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.07);
+  cursor: pointer;
 }
 
 .blog__item-body {
@@ -988,7 +988,6 @@ input {
   width: 160px;
   height: 160px;
   border-radius: 12px;
-  /* background: orange; */
 }
 
 .blog__date {
@@ -1010,6 +1009,75 @@ input {
   color: #7264d6;
   font-weight: 400;
   line-height: 1.63; /* 162.5% */
+}
+
+/*---------------------------------------------
+# section styling
+---------------------------------------------*/
+.app {
+  padding: 66px 0;
+  color: #fff;
+}
+
+.app__inner {
+  height: 466px;
+  border-radius: 24px;
+  background: #7264d6;
+  padding: 49px 112px;
+}
+
+.app__body {
+  height: 368px;
+  padding: 51px 0;
+  position: relative;
+}
+
+.app__title {
+  margin: 0 auto;
+  width: 435px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.app__icon-star {
+  position: absolute;
+  width: 154px;
+  height: 154px;
+}
+
+.app__icon-star--1 {
+  top: 0;
+  left: 0;
+}
+
+.app__icon-star--2 {
+  left: 54px;
+  bottom: 0;
+}
+
+.app__icon-star--3 {
+  top: 0;
+  right: 0;
+}
+
+.app__icon-star--4 {
+  right: 54px;
+  bottom: 0;
+}
+
+.app__text-white {
+  color: #fff;
+}
+
+.app__bg-white {
+  background: #fff;
+}
+
+.app__cta {
+  margin-top: 38px;
 }
 
 /*---------------------------------------------
