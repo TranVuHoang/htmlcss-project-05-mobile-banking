@@ -813,8 +813,129 @@ input {
   gap: 18px;
 }
 /*---------------------------------------------
-# section styling
+# testimonial section styling
 ---------------------------------------------*/
+.testimonial {
+  padding: 66px 0;
+  margin-top: 28px;
+}
+
+.testimonial__title {
+  text-align: center;
+}
+
+.testimonial__title-lable {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.testimonial__title-desc {
+  margin-top: 18px;
+  width: 435px;
+  font-size: 1.6rem;
+  margin: 0 auto;
+}
+
+.testimonial__list {
+  display: flex;
+  gap: 30px;
+}
+
+.testimonial__item {
+  margin-top: 70px;
+  width: 570px;
+}
+
+.testimonial__item-content {
+  height: 314px;
+}
+
+.testimonial__item-desc {
+  position: relative;
+  padding: 42px 28px;
+  color: #696d76;
+  text-align: center;
+  font-size: 2.2rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.55; /* 154.545% */
+  background: #fff;
+  box-shadow: 0px 22px 54px #00000012;
+}
+
+.testimonial__item-desc::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  transform: rotate(45deg);
+  bottom: -40px;
+  left: 43%;
+}
+
+.testimonial__info {
+  /* margin-top: 36px; */
+  margin: 0 auto;
+  text-align: center;
+  height: 192px;
+  min-width: 166px;
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial__info-img {
+  width: 104px;
+  height: 104px;
+  border-radius: 52px;
+  background: #4ab5e3;
+}
+
+.testimonial__img--bg {
+  background: #439f90;
+}
+
+.testimonial__info-name {
+  color: #070052;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.38; /* 138.462% */
+  margin-top: 20px;
+}
+
+.testimonial__info-desc {
+  margin-top: 2px;
+  color: #696d76;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.67; /* 166.667% */
+}
+
+.testimonial__arrows {
+  width: 90px;
+  margin: 38px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.testimonial__arrow {
+  cursor: pointer;
+  width: 22px;
+  height: 6px;
+  border-radius: 1px;
+  border: 1px solid #9b9fab;
+}
+
+.testimonial__arrow:hover,
+.testimonial__arrow-active {
+  background: #7264d6;
+  border: none;
+}
+
 /*---------------------------------------------
 # section styling
 ---------------------------------------------*/
