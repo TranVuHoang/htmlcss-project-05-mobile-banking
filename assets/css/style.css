@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -86,6 +88,13 @@ input {
   line-height: 1.25; /* 125% */
 }
 
+.section-desc {
+  margin-top: 20px;
+  color: #696d76;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.67; /* 166.667% */
+}
 /*---------------------------------------------
 # header styling
 ---------------------------------------------*/
@@ -534,8 +543,275 @@ input {
 }
 
 /*---------------------------------------------
-# section styling
+# feature section styling
 ---------------------------------------------*/
+.feature {
+  padding: 66px 0;
+  margin-top: 28px;
+}
+
+.feature__inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 160px 130px;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.feature__content {
+  width: 470px;
+  height: 500px;
+}
+
+.feature__wrap {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  gap: 18px;
+}
+
+.feature__item {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.feature__item::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #7264d6;
+  border-radius: 50%;
+}
+
+.feature__cta {
+  margin-top: 38px;
+}
+
+.feature__media {
+  width: 570px;
+  height: 425px;
+  margin: 37px 0 37px -100px;
+  position: relative;
+}
+
+.feature__media2 {
+  margin: 0;
+}
+
+.feature__card {
+  width: 482px;
+  height: 322px;
+  top: 48px;
+  left: 0;
+  border-radius: 20px;
+  background: #8476e3;
+  color: #fff;
+  padding: 38px;
+}
+
+.feature__card-title {
+  font-size: 2.4rem;
+  line-height: normal;
+}
+
+.feature__brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f2f2fa;
+  width: 63px;
+  height: 48px;
+}
+
+.feature__card-balance {
+  margin-top: 10px;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.feature__card-info {
+  margin-top: 98px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px 26px;
+}
+
+.feature__card-info-desc {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.feature__card-info-name {
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.feature__decor {
+  position: absolute;
+}
+
+.feature__decor--1 {
+  width: 276px;
+  height: 86px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 14px 38px 0px rgba(0, 0, 0, 0.07);
+  padding: 23px 13px;
+  display: flex;
+  align-items: center;
+  top: 0;
+  right: 0;
+}
+
+.feature__img-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.feature__img--plan {
+  width: 40px;
+  height: 40px;
+  background: rgba(218, 100, 100, 0.102);
+  box-shadow: -4px -2px 16px 0px #fff, 4px 2px 16px 0px #88a5bf7a;
+}
+
+.feature__icon-plane {
+  width: 20px;
+  height: 19.2px;
+}
+
+.feature__decor-wrap {
+  margin-left: 14px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.feature__decor-title {
+  color: #212832;
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.feature__decor-desc {
+  color: #696d76;
+  font-family: Inter;
+  font-size: 1rem;
+  line-height: normal;
+}
+
+.feature__decor-price {
+  margin-left: 67px;
+  color: #212832;
+  text-align: right;
+  font-family: Inter;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.feature__decor-money {
+  color: #212832;
+  text-align: right;
+  font-family: Inter;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+}
+
+.feature__decor--2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 16px;
+  background: #439f90;
+  padding: 15px;
+}
+
+.feature__img-income {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+}
+
+.feature__title-income {
+  margin-top: 14px;
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: normal;
+}
+
+.feature__desc-income {
+  margin-top: 6px;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.feature__media2 {
+  width: 570px;
+  height: 600px;
+}
+
+.feature__media2-main {
+  background: url(../images/svg/feature__bg.svg) bottom no-repeat;
+}
+
+.feature__img {
+  width: 413px;
+  height: 600px;
+}
+
+.feature__decor--3 {
+  width: 90px;
+  height: 90px;
+  background: #7264d6;
+  color: #fff;
+  border-radius: 50%;
+  right: 0;
+  top: 288px;
+}
+
+.feature__content2 {
+  margin: 50px 0;
+}
+
+.feature__decor-card {
+  width: 281px;
+  height: 220px;
+  padding: 28px;
+  border-radius: 10px;
+  background: #fff;
+  filter: drop-shadow(0px 44px 48px rgba(0, 0, 0, 0.1));
+  right: 26px;
+  bottom: 57px;
+}
+
+.feature__card-title {
+  color: #212832;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.67; /* 166.667% */
+}
+
+.feature__decor-brand-wrap {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
 /*---------------------------------------------
 # section styling
 ---------------------------------------------*/
