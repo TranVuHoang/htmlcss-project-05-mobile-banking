@@ -937,5 +937,81 @@ input {
 }
 
 /*---------------------------------------------
+# blog section styling
+---------------------------------------------*/
+.blog {
+  padding: 66px 0;
+  margin-top: 28px;
+}
+
+.blog__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog__title {
+  width: 435px;
+}
+
+.blog__title-desc {
+  font-size: 1.6rem;
+}
+
+.blog__list {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.blog__item {
+  width: 570px;
+  height: 216px;
+  border-radius: 12px;
+  border: 1px solid #dfe2e8;
+  background: #fff;
+  padding: 28px;
+}
+
+.blog__item:hover {
+  border: 1px solid transparent;
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.07);
+}
+
+.blog__item-body {
+  display: flex;
+  gap: 22px;
+}
+
+.blog__img {
+  width: 160px;
+  height: 160px;
+  border-radius: 12px;
+  /* background: orange; */
+}
+
+.blog__date {
+  color: #696d76;
+  font-size: 1.4rem;
+  line-height: 1.71; /* 171.429% */
+}
+
+.blog__item-title {
+  margin-top: 10px;
+  color: #212832;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.67; /* 166.667% */
+}
+
+.blog__read {
+  margin-top: 20px;
+  color: #7264d6;
+  font-weight: 400;
+  line-height: 1.63; /* 162.5% */
+}
+
+/*---------------------------------------------
 # section styling
 ---------------------------------------------*/
